@@ -9,33 +9,38 @@
 # testing
 /coverage
 
-# next.js
+# Next.js build outputs
 /.next/
 /out/
-
-# production
 /build
 
-# misc
-.DS_Store
-*.pem
+# local environment files
+.env.local
+.env.*.local
 
-# debug
+# legacy or example env
+.env
+.env.example
+
+# Vercel
+.vercel
+
+# Visual Studio caches
+.vs/
+**/*.vsidx
+*.slnx.sqlite
+
+# macOS
+.DS_Store
+
+# debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env
-
-# vercel
-.vercel
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
-.vscode
 
 # Docker
 postgres_data/
-.env*.local
